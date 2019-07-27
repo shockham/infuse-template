@@ -1,4 +1,4 @@
-# infusa-template
+# infuse-template
 
 A template to use with [cargo-generate](https://github.com/ashleygwilliams/cargo-generate) to create [infuse](https://github.com/shockham/infuse) projects.
 
@@ -12,3 +12,12 @@ cargo install cargo-generate
 cargo generate --git https://github.com/shockham/infuse-template.git
 ```
 
+Run:
+- Install the deps:
+```
+yarn install
+```
+- Serve the app:
+```
+yarn run serve
+```
