@@ -8,5 +8,5 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-infuse = "0.3"
+infuse = "0.4"
 wasm-bindgen = "0.2.43"
