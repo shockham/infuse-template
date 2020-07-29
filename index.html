@@ -11,6 +11,14 @@
   </head>
   <body>
     <canvas id="canvas" height="1000" width="1000" />
+    <script type="module">
+      import init from './pkg/tiime.js';
+
+      async function run() {
+        let res = await init();
+      }
+
+      run();
+    </script>
   </body>
-  <script src="./index.js"></script>
 </html>
