@@ -13,11 +13,13 @@ cargo generate --git https://github.com/shockham/infuse-template.git
 ```
 
 Run:
-- Install the deps:
+- Requires [`make`](https://www.gnu.org/software/make/) and [`entr`](http://eradman.com/entrproject/) for hot reloading
+- Install wasm-pack:
 ```
-yarn install
+cargo install wasm-pack
 ```
 - Serve the app:
 ```
-yarn run serve
+make build
+make serve
 ```
